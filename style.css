@@ -13,7 +13,7 @@ h1{
 h4{
     font-size: 20px;
 }
-section{
+.flex{
     display: flex;
     position: relative;
     
@@ -51,10 +51,57 @@ hr{
 h2{
     font-size: 30px;
 }
+.middle{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .butter2{
     width: 217px;
     height: 181px;
     position: absolute;
     right: 492px;
     top: -141px;
+}
+.develop{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+}
+.develop:hover{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+#full {
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(231, 231, 13),rgb(255, 0, 221));
+    border-image-slice: 1;
+}
+#full:hover {
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(255, 0, 221),rgb(241, 226, 6));
+    border-image-slice: 1;}
+#baby {
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(255, 38, 0),rgb(43, 255, 0));
+    border-image-slice: 1;
+}
+#baby:hover {
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(43, 255, 0),rgb(255, 38, 0));
+    border-image-slice: 1;
+}
+footer {
+    margin-top: 100px;
+    
+}
+.foot{
+    text-align: center;
 }
