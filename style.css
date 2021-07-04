@@ -1,0 +1,34 @@
+body{
+    background:linear-gradient(#ffffff,rgb(233, 210, 172) ) ;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.Orange{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+h4{
+    font-size: 20px;
+}
+section{
+    display: flex;
+    
+}
+.half-header{
+    width: 50%;
+    margin-left: 50px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background: linear-gradient(gold, tomato) ;
+}
+.link:hover{
+    background: linear-gradient(tomato, gold);
+}
